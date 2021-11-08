@@ -1,0 +1,41 @@
+const GET_ALL_USERS = "user:GET_ALL_USERS"
+const DELETE_USERS = "user:DELETE_USERS"
+const UPDATE_USERS = "user:UPDATE_USERS"
+const ADD_ADMINS = "user:ADD_ADMINS"
+const DELETE_ADMINS = "user:DELETE_ADMINS"
+const GET_ALL_POSTS = "posts:GET_ALL_POSTS"
+const USER_POSTS = "posts:USER_POSTS"
+const GET_ALL_ADMINS = "user:GET_ALL_ADMINS"
+const BLOCK_USER = "user:BLOCK_USER"
+const ADD_ADV = "adv:ADD_ADV"
+const DELETE_ADV = "adv:DELETE_ADV"
+const UPDATE_ADV = "adv:UPDATE_ADV"
+const REPORTS = "report:REPORTS"
+const BLOCK_POST = "posts:BLOCK_POST"
+
+
+
+
+
+
+
+
+
+module.exports ={
+
+    GET_ALL_USERS,
+    DELETE_USERS,
+    UPDATE_USERS,
+    ADD_ADMINS,
+    DELETE_ADMINS,
+    GET_ALL_ADMINS,
+    BLOCK_USER,
+    BLOCK_POST,
+    GET_ALL_POSTS,
+    ADD_ADV,
+    DELETE_ADV,
+    UPDATE_ADV,
+    USER_POSTS,
+    REPORTS
+
+}

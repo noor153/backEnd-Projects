@@ -1,0 +1,25 @@
+const {
+  BLOCK_USER,
+  ADD_ADMINS,
+  ADD_ADV,
+  DELETE_ADV,
+  UPDATE_ADV,
+  GET_ALL_ADMINS,
+  DELETE_ADMINS,
+  GET_ALL_USERS,
+  GET_ALL_POSTS,
+  BLOCK_POST,
+} = require("../../modules/users/endPoints");
+
+module.exports = [
+  BLOCK_USER,
+  ADD_ADMINS,
+  GET_ALL_ADMINS,
+  DELETE_ADMINS,
+  GET_ALL_USERS,
+  GET_ALL_POSTS,
+  ADD_ADV,
+  DELETE_ADV,
+  UPDATE_ADV,
+  BLOCK_POST
+];
