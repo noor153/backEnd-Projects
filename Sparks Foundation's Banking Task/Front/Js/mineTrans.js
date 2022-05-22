@@ -16,9 +16,6 @@ let view = document.getElementById('view')
 
 
 
-
-
-
 let submision = ()=>{
     window.location.href='../viewCustomers.html'
 
@@ -36,7 +33,7 @@ getHttp.onreadystatechange=()=>{
 `
         }
         users.innerHTML = allUsers;
-        id = localStorage.getItem('senderId')
+        id = localStorage.getItem('senderId') -1
         view.innerHTML= `<h5 class="card-title py-2">Sparks Foundation Banking System </h5>
         <p class="card-text">`+JSON.parse(getHttp.response).allusers[id].name+` </p>
         <p class="card-text"> `+JSON.parse(getHttp.response).allusers[id].email+`</p>

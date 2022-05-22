@@ -1,6 +1,6 @@
 const Users = require("../../users/schema/userSchema")
 const Transaction = require("../schema/transSchema")
-const { json } = ("express")
+
 
 const getAllTransfers = async(req,res)=>{
     let allTrans=await Transaction.find()
@@ -9,8 +9,6 @@ const getAllTransfers = async(req,res)=>{
 
 
 const AddTrans =async (req,res)=>{
-
-
 
     try {
         let {Amount,reciver ,Sender} = req.body
