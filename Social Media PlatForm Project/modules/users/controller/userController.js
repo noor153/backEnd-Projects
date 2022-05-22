@@ -235,9 +235,6 @@ const addAdmin = async (req, res) => {
               res.status(StatusCodes.BAD_REQUEST).json({ message: "Failed", error });
   
       }
-  
-  
-  
 };
   
 

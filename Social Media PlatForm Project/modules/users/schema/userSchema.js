@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
+const { x } = require('joi')
 
 const userSchema = new mongoose.Schema({
 
@@ -14,7 +15,6 @@ const userSchema = new mongoose.Schema({
     isDeleted:{type:Boolean,default:false},
     Activated:{type:Boolean,default:true},
     blocked:{type:Boolean,default:false}
-
 
 },
 {

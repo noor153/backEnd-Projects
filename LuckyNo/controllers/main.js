@@ -4,6 +4,7 @@ const dashboard = async (req, res) => {
   const luckyNo = Math.floor(Math.random()*100)
   res.status(200).json({ msg: `welcome ${req.user.username}` , secret:`your Lucky Number is ${luckyNo} ` });
 };
+
 const login = async (req, res) => {
   const { username, password } = req.body;
   if(!username || !password){

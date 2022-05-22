@@ -11,6 +11,7 @@ formDOM.addEventListener('submit', async (e) => {
   tokenDOM.classList.remove('text-success')
 
   e.preventDefault()
+  
   const username = usernameInputDOM.value
   const password = passwordInputDOM.value
 

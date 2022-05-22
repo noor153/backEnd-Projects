@@ -1,0 +1,16 @@
+.row{
+    height: 100vh !important;
+}
+
+#Home{
+    background-color: #808080;
+}
+
+.btn{
+    background-color: white !important;
+    border: #808080 solid 1px;
+}
+
+#forma{
+    display: none;
+}
